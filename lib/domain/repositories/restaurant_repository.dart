@@ -51,4 +51,21 @@ abstract class RestaurantRepository {
   /// - Success: [Restaurant] object with complete details, or null if not found
   /// - Error: [AppError] describing what went wrong
   Future<Result<Restaurant?>> fetchRestaurantDetail(String id);
+
+  /// Toggles a restaurant's favorite status.
+  ///
+  /// Adds to favorites if not currently favorited, removes if already favorited.
+  /// Returns [Result.ok] on success or [Result.error] on failure.
+  Future<Result<void>> toggleFavorite(String restaurantId);
+
+  /// Checks if a restaurant is currently favorited.
+  ///
+  /// Returns [Result] containing true if favorited, false otherwise.
+  /// Used for updating heart icon states in the UI.
+  Future<Result<bool>> isRestaurantFavorited(String restaurantId);
+
+  /// Clears all favorites.
+  ///
+  /// Returns [Result.ok] on success or [Result.error] on failure.
+  Future<Result<void>> clearAllFavorites();
 }
