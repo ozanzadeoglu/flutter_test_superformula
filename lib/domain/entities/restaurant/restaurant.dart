@@ -1,7 +1,7 @@
-import 'package:restaurant_tour/domain/entities/category.dart';
-import 'package:restaurant_tour/domain/entities/hours.dart';
-import 'package:restaurant_tour/domain/entities/location.dart';
-import 'package:restaurant_tour/domain/entities/review.dart';
+import 'package:restaurant_tour/domain/entities/category/category.dart';
+import 'package:restaurant_tour/domain/entities/hours/hours.dart';
+import 'package:restaurant_tour/domain/entities/location/location.dart';
+import 'package:restaurant_tour/domain/entities/review/review.dart';
 
 class Restaurant {
   final String? id;

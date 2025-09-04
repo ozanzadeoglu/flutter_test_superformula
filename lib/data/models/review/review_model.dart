@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:restaurant_tour/data/models/user/user_model.dart';
-import 'package:restaurant_tour/domain/entities/review.dart';
+import 'package:restaurant_tour/domain/entities/review/review.dart';
 
 part 'review_model.g.dart';
 

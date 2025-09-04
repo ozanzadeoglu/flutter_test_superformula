@@ -1,5 +1,5 @@
-import 'package:restaurant_tour/domain/entities/category.dart';
-import 'package:restaurant_tour/domain/entities/hours.dart';
+import 'package:restaurant_tour/domain/entities/category/category.dart';
+import 'package:restaurant_tour/domain/entities/hours/hours.dart';
 
 class RestaurantSummary {
   final String? id;

@@ -1,7 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:restaurant_tour/data/models/category/category_model.dart';
 import 'package:restaurant_tour/data/models/hours/hours_model.dart';
-import 'package:restaurant_tour/domain/entities/restaurant_summary.dart';
+import 'package:restaurant_tour/domain/entities/restaurant/restaurant_summary.dart';
 
 part 'restaurant_summary_model.g.dart';
 

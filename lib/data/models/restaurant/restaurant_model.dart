@@ -3,7 +3,7 @@ import 'package:restaurant_tour/data/models/category/category_model.dart';
 import 'package:restaurant_tour/data/models/hours/hours_model.dart';
 import 'package:restaurant_tour/data/models/location/location_model.dart';
 import 'package:restaurant_tour/data/models/review/review_model.dart';
-import 'package:restaurant_tour/domain/entities/restaurant.dart';
+import 'package:restaurant_tour/domain/entities/restaurant/restaurant.dart';
 
 part 'restaurant_model.g.dart';
 

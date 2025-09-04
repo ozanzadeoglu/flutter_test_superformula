@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:restaurant_tour/domain/entities/category.dart';
+import 'package:restaurant_tour/domain/entities/category/category.dart';
 
 part 'category_model.g.dart';
 
