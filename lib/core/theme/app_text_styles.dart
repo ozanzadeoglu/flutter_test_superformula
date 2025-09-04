@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Application text styles extracted from Figma design system.
-/// 
-/// Provides semantic text styles that map to Flutter's TextTheme structure.
+/// Application text styles extracted from Figma.
 class AppTextStyles {
   AppTextStyles._();
 
