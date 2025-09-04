@@ -54,7 +54,7 @@ class AppTheme {
   );
 
   /// Divider theme configuration
-  static const DividerTheme _dividerTheme = DividerTheme(
+  static const DividerThemeData _dividerTheme = DividerThemeData(
     color: AppColors.dividerLine,
     thickness: 1,
   );
